@@ -42,16 +42,21 @@ Of course, at your own risk :P.
 ## Flashing process
 
 * Download the correct `preloader` image:
-    * [normal HyperOs ROMs]
-    * [Engineering Hyperos ROMs]
+  
+    * [Engineering Hyperos preloader] (you can find it in this repository inside the docs/preloader folder)
+
+There are two versions, one installable by twrp and the other by fastboot
+FlashablePreloader.zip (twrp)
+preloader_duchamp_eng.bin(fastboot)
+
 * Reboot your device into fastboot mode by holding down the appropriate button combination (`Volume Down` + `Power`) until the word `FASTBOOT` in ORANGE appears on the screen.
 * Open a `ADB & Fastboot tools` window on your PC and flash the `preloader` image you downloaded before.
 
 ``` bash
     # Mention the path of the images before running the commands (Mention the path of the images before running the command)
     # Ex: fastboot flash preloader1 C:/home/USER/duchamp/preloader_duchamp.bin
-    fastboot flash preloader1 <preloader_duchamp>.bin
-    fastboot flash preloader2 <preloader_duchamp>.bin
+    fastboot flash preloader_a <preloader_duchamp_eng.bin>
+    fastboot flash preloader_b <preloader_duchamp_eng.bin>
 ```
 
 * Reboot your device by holding the `Power` button.
