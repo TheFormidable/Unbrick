@@ -70,13 +70,13 @@ So you have managed to brick your device and you have previously flashed the fac
 
 * Turn off your device.
 * Open the SP Flash tool V6.
- <img src="https://github.com/TheFormidable/Unbrick/blob/e6b13b04c2d908221029d0bf230d6faba08cfd53/docs/images/1.png"/>
+  ![1](https://github.com/TheFormidable/Unbrick/blob/e6b13b04c2d908221029d0bf230d6faba08cfd53/docs/images/1.png)
 * 
 * On `BROM Connection`, make sure is set on `auto`.
 * Load the Fastboot ROM of your choice by pressing the `Download XML` button and selecting the `images/download_agent/flash.xml` file.
 * Deselect the `preloader` option.
 * 
- <img src="https://github.com/TheFormidable/Unbrick/blob/e6b13b04c2d908221029d0bf230d6faba08cfd53/docs/images/2.png"/>
+![Poco x6 pro](https://github.com/TheFormidable/Unbrick/blob/e6b13b04c2d908221029d0bf230d6faba08cfd53/docs/images/2.png)
 * 
 * Press the `Download` button.
 * Connect the device to your PC (if it doesn't detect, press and hold the `Power` button for 8-10 seconds).
