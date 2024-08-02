@@ -55,8 +55,8 @@ preloader_duchamp_eng.bin(fastboot)
 ``` bash
     # Mention the path of the images before running the commands (Mention the path of the images before running the command)
     # Ex: fastboot flash preloader1 C:/home/USER/duchamp/preloader_duchamp.bin
-    fastboot flash preloader_a <preloader_duchamp_eng.bin>
-    fastboot flash preloader_b <preloader_duchamp_eng.bin>
+    fastboot flash preloader_ab <preloader_duchamp_eng.bin>
+    
 ```
 
 * Reboot your device by holding the `Power` button.
