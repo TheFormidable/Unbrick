@@ -58,7 +58,7 @@ preloader_duchamp_eng.bin(fastboot)
     fastboot flash preloader_ab <preloader_duchamp_eng.bin>
     
 ```
-
+![preloader](https://github.com/TheFormidable/Unbrick/blob/4f09165fea4128a995b863008719ce230220fd46/docs/images/preloader.png)
 * Reboot your device by holding the `Power` button.
 * You are good to go :D
 
