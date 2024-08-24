@@ -44,6 +44,7 @@ Of course, at your own risk :P.
 * Download the correct `preloader` image:
   
     * [Engineering Hyperos preloader] (you can find it in this repository inside the docs/preloader folder)
+    * https://github.com/TheFormidable/Unbrick/tree/main/docs/Preloader
 
 There are two versions, one installable by twrp and the other by fastboot
 FlashablePreloader.zip (twrp)
